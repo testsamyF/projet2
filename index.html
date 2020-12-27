@@ -3,68 +3,76 @@
     <head>
         <meta charset="utf-8" />
         <title>Projet 2 Reservia</title>
-        <link rel="stylesheet" href="style.css" />
-    </head>
+        <link rel="stylesheet" href="style.css" media="screen" />
+        <script src="https://kit.fontawesome.com/65d272e922.js" crossorigin="anonymous"></script>
+        <!-- Lien vers la feuille de style de la police Releway, vers le site Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"> 
 
+    </head>
     <body>
         <header>
-            <div> 
-                <div>
-                    <img class="" src="" />
+            <div class="topbar"> 
+                <div class="logo"><img src="images/logo/Reservia.svg" alt="logo Reservia" /></div>
                 <nav>
-                    <a href="" class=""></a>
-                    <a href="" class=""></a>
-                    <a href="" class=""></a>
+                    <ul class="container_menu">
+                        <li class="menu-item"><a href="#Hébergements">Hébergements</a></li>
+                        <li class="menu-item"><a href="#Activités">Activités</a></li>
+                        <li class="menu-item"><a href="#S'inscrire">S'inscrire</a></li>
+                    </ul>
                 </nav>
-                </div>
-                <div>
-                    <h1></h1>
-                    <p></p>
-                </div>
+            </div>
+            <div class="titre_description">
+                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre ville ou en pleine nature</p>
             </div>
         </header>
 
         <section>
             <!-- section search+filters-->
-            <div>
+            <div class="section-search">
+                    <i class="fa fa-map-marker"></i>
+                    <input class="search" type="search" placeholder="Marseille,France">
+                    <button type="submit" class="recherche" value="rechercher">Rechercher</button>
+            </div>
+            <div class="section-filters">
+                <h3>Filtres</h3>
                 <div>
-                    <i class=""></i>
-                    <input class="">
-                    <button class=""></button>
-                </div>
-                <div>
-                    <h3></h3>
-                    <div class="">
-                    <i class=""></i>
+                    <i class="fas fa-money-bill-wave"></i>
                     Economique
                 </div>
                 <div>
-                    <i class=""></i>
-                    <button class=""></button>
+                    <i class="fas fa-child"></i>
+                    Familial
                 </div>
                 <div>
-                    <i class=""></i>
-                    <button class=""></button>
+                    <i class="fas fa-heart"></i>
+                    Romantique
                 </div>
                 <div>
-                    <i class=""></i>
-                    <button class=""></button>
+                    <i class="fas fa-dog"></i>
+                    Animaux autorisés 
                 </div>
             </div>
-            <!-- section search+filters-->
+            <div class="info">
+                <i class="fas fa-info-circle"></i>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
         </section>
+        <!-- end-section search+filters-->
         <!-- section Hébergements à Marseille_Les plus populaires-->
-        <section>
+        <section class="section-parent-hebergement">
             <!--Hébergements à Marseille-->
-            <div>
-                <div>
-                    <h2></h2>
+            <div class="Parent-Hébergement-Marseille">
+               
+                <div class="titre-Hébergement">
+                    <h2>hébergements à Marseille</h2>
                 </div> 
-                <div>
-                    <div>
+                <div class="enfant-hébergement">
+                    <div class="card">
                         <a href="">
                             <img src="" />
-                            <h4></h4>
+                            <h4>1</h4>
                             <p></p>
                             <i class=""></i>
                             <i class=""></i>
@@ -73,10 +81,10 @@
                             <i class=""></i>
                         </a>
                     </div>
-                    <div>
+                    <div class="card">
                         <a href="">
                             <img src="">
-                            <h4></h4>
+                            <h4>2</h4>
                             <p></p>
                             <i class=""></i>
                             <i class=""></i>
@@ -85,10 +93,10 @@
                             <i class=""></i>
                         </a>
                     </div>
-                    <div>
+                    <div class="card">
                         <a href="">
                             <img src="">
-                            <h4></h4>
+                            <h4>3</h4>
                             <p></p>
                             <i class=""></i>
                             <i class=""></i>
@@ -97,10 +105,10 @@
                             <i class=""></i>
                         </a>
                     </div>
-                    <div>
+                    <div class="card">
                         <a href="">
                             <img src="">
-                            <h4></h4>
+                            <h4>4</h4>
                             <p></p>
                             <i class=""></i>
                             <i class=""></i>
@@ -109,10 +117,10 @@
                             <i class=""></i>
                         </a>
                     </div>
-                    <div>
+                    <div class="card">
                         <a href="">
                             <img src="">
-                            <h4></h4>
+                            <h4>5</h4>
                             <p></p>
                             <i class=""></i>
                             <i class=""></i>
@@ -121,10 +129,10 @@
                             <i class=""></i>
                         </a>
                     </div>
-                    <div>
+                    <div class="card">
                         <a href="">
                             <img src="">
-                            <h4></h4>
+                            <h4>6</h4>
                             <p></p>
                             <i class=""></i>
                             <i class=""></i>
@@ -133,15 +141,15 @@
                             <i class=""></i>
                         </a>
                     </div>
-                    <a href=""></a>
+                    <a href="">Afficher plus</a>
                 </div>
             </div>
             <!--Hébergements à Marseille-->
 
             <!--Les plus populaires-->
-            <div>
+            <div class="parent-les-plus-populaires">
                 <div>
-                    <h2></h2>
+                    <h2>Les plus populaires</h2>
                     <i class=""></i>
                 </div>
                 <div>
