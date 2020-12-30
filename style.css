@@ -36,7 +36,6 @@ body
     
 }
 /* END HEADER */
-
 /*section search+filters*/
 .section-search
 {
@@ -51,14 +50,20 @@ body
     display: flex;
     padding: 20px;
 }
-h3
+.title-filters
 {
-    
+    display: flex;
 }
 /*end section search+filters*/
-
+/*info 500 logements*/
+.info
+{
+    display: flex;
+}
+/*end info 500 logements*/
 /*section Hébergements à Marseille_Les plus populaires*/
-.section-parent-hebergement
+/* Hébergements à Marseille*/
+.section-parent-hebergement_les-plus-populaires
 {
     display: flex;
 }
@@ -68,25 +73,16 @@ h3
     width: 75%;
     
 }
-.parent-les-plus-populaires
-{
-    background-color: royalblue;
-    width: 25%;
-}
-.info
-{
-    display: flex;
-}
 .titre-Hébergement
 {
-    
-
+    margin: 10px;
+    padding: 10px;
 }
 .enfant-hébergement
 {
    background-color: red;
    display: flex;
-    flex-wrap: wrap;
+   flex-wrap: wrap;
 
 }
 .card
@@ -96,3 +92,61 @@ h3
     padding: 10px;
     width: 25%;
 }
+/* end Hébergements à Marseille*/
+/* Les plus populaires*/
+.parent-les-plus-populaires
+{
+    background-color: royalblue;
+    width: 25%;
+}
+.titre-les-plus-populaires
+{  
+    display: flex;
+    justify-content: space-between;
+}
+.enfant-populaires
+{
+    background-color: sandybrown;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.card_populaires
+{
+    background-color: salmon;
+    margin: 10px;
+    padding: 20px;
+    width: 50%;
+}
+/* end Les plus populaires*/
+/* Activités à Marseille*/
+.section-parent-activités-à-Marseille
+{
+    display: flex;
+    background-color: hotpink;
+    
+}
+.parent-activités-Marseille
+{
+    background-color: rgb(202, 164, 58);
+    width: 100%;
+    margin: 10px;
+}
+.titre-activités-à-Marseille
+{
+    margin: 10px;
+    padding: 10px;
+}
+.enfant-activités-Marseille
+{
+
+}
+.card-activités
+{
+    
+}
+/* end  Activités à Marseille*/
+
+
+
