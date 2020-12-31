@@ -1,269 +1,278 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <title>Projet 2 Reservia</title>
-        <meta name="description" content="Projet 2 Reservia">
-        <link rel="stylesheet" href="style.css" media="screen" />
-        <script src="https://kit.fontawesome.com/65d272e922.js" crossorigin="anonymous"></script>
-        <!-- Lien vers la feuille de style de la police Releway, vers le site Google Fonts -->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"> 
 
-    </head>
-    <body>
-        <header>
-            <div class="topbar"> 
-                <div class="logo"><img src="images/logo/Reservia.svg" alt="logo Reservia" /></div>
-                <nav>
-                    <ul class="container_menu">
-                        <li class="menu-item"><a href="#Hébergements">Hébergements</a></li>
-                        <li class="menu-item"><a href="#Activités">Activités</a></li>
-                        <li class="menu-item"><a href="#S'inscrire">S'inscrire</a></li>
-                    </ul>
-                </nav>
-            </div>
+<head>
+    <meta charset="utf-8" />
+    <title>Projet 2 Reservia</title>
+    <meta name="description" content="Projet 2 Reservia">
+    <script src="https://kit.fontawesome.com/65d272e922.js" crossorigin="anonymous"></script>
+    <!-- Lien vers la feuille de style de la police Releway, vers le site Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" media="screen" />
+
+</head>
+
+<body>
+    <header>
+        <div class="topbar">
+            <div class="logo"><img src="images/logo/Reservia.svg" alt="logo Reservia" /></div>
+            <nav>
+                <ul class="container_menu">
+                    <div id="hébergements-ancre">
+                        <li class="menu-item"><a href="#hébergements-ancre">Hébergements</a></li>
+                    </div>
+                    <div id="activités-ancre">
+                        <li class="menu-item"><a href="#activités-ancre">Activités</a></li>
+                    </div>
+                    <li class="menu-item"><a href="#S'inscrire">S'inscrire</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container-content">
+        <div class="container-inner-content">
             <div class="titre_description">
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
             </div>
-        </header>
-
-        <section>
-            <!-- section search+filters-->
-            <div class="section-search">
+            <section>
+                <!-- section search+filters-->
+                <div class="section-search">
                     <i class="fa fa-map-marker"></i>
                     <input class="search" type="search" placeholder="Marseille,France">
                     <button type="submit" class="recherche" value="rechercher">Rechercher</button>
-            </div>
-            <div class="section-filters">
-                <h3 class="title-filters">Filtres</h3>
-                <div>
-                    <i class="fas fa-money-bill-wave"></i>
-                    Economique
                 </div>
-                <div>
-                    <i class="fas fa-child"></i>
-                    Familial
+                <div class="section-filters">
+                    <h3 class="title-filters">Filtres</h3>
+                    <div>
+                        <i class="fas fa-money-bill-wave"></i>
+                        Economique
+                    </div>
+                    <div>
+                        <i class="fas fa-child"></i>
+                        Familial
+                    </div>
+                    <div>
+                        <i class="fas fa-heart"></i>
+                        Romantique
+                    </div>
+                    <div>
+                        <i class="fas fa-dog"></i>
+                        Animaux autorisés
+                    </div>
                 </div>
-                <div>
-                    <i class="fas fa-heart"></i>
-                    Romantique
+                <div class="info">
+                    <i class="fas fa-info-circle"></i>
+                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
-                <div>
-                    <i class="fas fa-dog"></i>
-                    Animaux autorisés 
+            </section>
+            <!-- end-section search+filters-->
+            <!-- section Hébergements à Marseille_Les plus populaires-->
+            <section class="section-parent-hebergement_les-plus-populaires">
+                <!--Hébergements à Marseille-->
+                <div class="Parent-Hébergement-Marseille">
+                    <div class="titre-Hébergement">
+                        <h2>hébergements à Marseille</h2>
+                    </div>
+                    <div class="enfant-hébergement">
+                        <div class="card">
+                            <a href="">
+                                <img src="" />
+                                <h4>1</h4>
+                                <p></p>
+                                <i class=""></i>
+                                <i class=""></i>
+                                <i class=""></i>
+                                <i class=""></i>
+                                <i class=""></i>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a href="">
+                                <img src="">
+                                <h4>2</h4>
+                                <p></p>
+                                <i class=""></i>
+                                <i class=""></i>
+                                <i class=""></i>
+                                <i class=""></i>
+                                <i class=""></i>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a href="">
+                                <img src="">
+                                <h4>3</h4>
+                                <p></p>
+                                <i class=""></i>
+                                <i class=""></i>
+                                <i class=""></i>
+                                <i class=""></i>
+                                <i class=""></i>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a href="">
+                                <img src="">
+                                <h4>4</h4>
+                                <p></p>
+                                <i class=""></i>
+                                <i class=""></i>
+                                <i class=""></i>
+                                <i class=""></i>
+                                <i class=""></i>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a href="">
+                                <img src="">
+                                <h4>5</h4>
+                                <p></p>
+                                <i class=""></i>
+                                <i class=""></i>
+                                <i class=""></i>
+                                <i class=""></i>
+                                <i class=""></i>
+                            </a>
+                        </div>
+                        <div class="card">
+                            <a href="">
+                                <img src="">
+                                <h4>6</h4>
+                                <p></p>
+                                <i class=""></i>
+                                <i class=""></i>
+                                <i class=""></i>
+                                <i class=""></i>
+                                <i class=""></i>
+                            </a>
+                        </div>
+                        <a href="#">Afficher plus</a>
+                    </div>
                 </div>
-            </div>
-            <div class="info">
-                <i class="fas fa-info-circle"></i>
-                <p>Plus de 500 logements sont disponibles dans cette ville</p>
-            </div>
-        </section>
-        <!-- end-section search+filters-->
-        <!-- section Hébergements à Marseille_Les plus populaires-->
-        <section class="section-parent-hebergement_les-plus-populaires">
-            <!--Hébergements à Marseille-->
-            <div class="Parent-Hébergement-Marseille">
-                <div class="titre-Hébergement">
-                    <h2>hébergements à Marseille</h2>
-                </div> 
-                <div class="enfant-hébergement">
-                    <div class="card">
-                        <a href="">
-                            <img src="" />
-                            <h4>1</h4>
-                            <p></p>
-                            <i class=""></i>
-                            <i class=""></i>
-                            <i class=""></i>
-                            <i class=""></i>
-                            <i class=""></i>
-                        </a>
-                    </div>
-                    <div class="card">
-                        <a href="">
-                            <img src="">
-                            <h4>2</h4>
-                            <p></p>
-                            <i class=""></i>
-                            <i class=""></i>
-                            <i class=""></i>
-                            <i class=""></i>
-                            <i class=""></i>
-                        </a>
-                    </div>
-                    <div class="card">
-                        <a href="">
-                            <img src="">
-                            <h4>3</h4>
-                            <p></p>
-                            <i class=""></i>
-                            <i class=""></i>
-                            <i class=""></i>
-                            <i class=""></i>
-                            <i class=""></i>
-                        </a>
-                    </div>
-                    <div class="card">
-                        <a href="">
-                            <img src="">
-                            <h4>4</h4>
-                            <p></p>
-                            <i class=""></i>
-                            <i class=""></i>
-                            <i class=""></i>
-                            <i class=""></i>
-                            <i class=""></i>
-                        </a>
-                    </div>
-                    <div class="card">
-                        <a href="">
-                            <img src="">
-                            <h4>5</h4>
-                            <p></p>
-                            <i class=""></i>
-                            <i class=""></i>
-                            <i class=""></i>
-                            <i class=""></i>
-                            <i class=""></i>
-                        </a>
-                    </div>
-                    <div class="card">
-                        <a href="">
-                            <img src="">
-                            <h4>6</h4>
-                            <p></p>
-                            <i class=""></i>
-                            <i class=""></i>
-                            <i class=""></i>
-                            <i class=""></i>
-                            <i class=""></i>
-                        </a>
-                    </div>
-                    <a href="#">Afficher plus</a>
-                </div>
-            </div>
-            <!--Hébergements à Marseille-->
+                <!--Hébergements à Marseille-->
 
+                <!--Les plus populaires-->
+                <div class="parent-les-plus-populaires">
+                    <div class="titre-les-plus-populaires">
+                        <h2>Les plus populaires</h2>
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="enfant-populaires">
+                        <div class="card_populaires">
+                            <a href="">
+                                <img src="" class="">
+                                <h4>1</h4>
+                                <p></p>
+                                <i class=""></i>
+                                <i class=""></i>
+                                <i class=""></i>
+                                <i class=""></i>
+                                <i class=""></i>
+                            </a>
+                        </div>
+                        <div class="card_populaires">
+                            <a href="">
+                                <img src="" class="">
+                                <h4>2</h4>
+                                <p></p>
+                                <i class=""></i>
+                                <i class=""></i>
+                                <i class=""></i>
+                                <i class=""></i>
+                                <i class=""></i>
+                            </a>
+                        </div>
+                        <div class="card_populaires">
+                            <a href="">
+                                <img src="" class="">
+                                <h4>3</h4>
+                                <p></p>
+                                <i class=""></i>
+                                <i class=""></i>
+                                <i class=""></i>
+                                <i class=""></i>
+                                <i class=""></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <!--Les plus populaires-->
-            <div class="parent-les-plus-populaires">
-                <div class="titre-les-plus-populaires">
-                    <h2>Les plus populaires</h2>
-                    <i class="fas fa-chart-line"></i>
-                </div>
-                <div class="enfant-populaires">
-                    <div class="card_populaires">
-                        <a href="">  
-                            <img src="" class="">
-                            <h4>1</h4>
-                            <p></p>
-                            <i class=""></i>
-                            <i class=""></i>
-                            <i class=""></i>
-                            <i class=""></i>
-                            <i class=""></i>
-                        </a>
+            <!--Activités à Marseille-->
+            <section class="section-parent-activités-à-Marseille">
+                <div class="parent-activités-Marseille">
+                    <div class="titre-activités-à-Marseille">
+                        <h2>Activités à Marseille</h2>
                     </div>
-                    <div class="card_populaires">
-                        <a href="">
-                            <img src="" class="">
-                            <h4>2</h4>
-                            <p></p>
-                            <i class=""></i>
-                            <i class=""></i>
-                            <i class=""></i>
-                            <i class=""></i>
-                            <i class=""></i>
-                        </a>
-                    </div>    
-                    <div class="card_populaires">
-                        <a href="">
-                            <img src="" class="">
-                            <h4>3</h4>
-                            <p></p>
-                            <i class=""></i>
-                            <i class=""></i>
-                            <i class=""></i>
-                            <i class=""></i>
-                            <i class=""></i>
-                        </a>
+                    <div class="enfant-activités-Marseille">
+                        <div class="card-activités">
+                            <a href="">
+                                <img src="">
+                                <h4></h4>
+                            </a>
+                        </div>
+                        <div class="card-activités">
+                            <a href="">
+                                <img src="">
+                                <h4></h4>
+                            </a>
+                        </div>
+                        <div class="card-activités">
+                            <a href="">
+                                <img src="">
+                                <h4></h4>
+                            </a>
+                        </div>
+                        <div class="card-activités">
+                            <a href="">
+                                <img src="">
+                                <h4></h4>
+                            </a>
+                        </div>
+                        <div class="card-activités">
+                            <a href="">
+                                <img src="">
+                                <h4></h4>
+                            </a>
+                        </div>
+                        <div class="card-activités">
+                            <a href="">
+                                <img src="">
+                                <h4></h4>
+                            </a>
+                        </div>
                     </div>
                 </div>
+            </section>
+            <!--Activités à Marseille-->
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer id="footer">
+        <div class="container-footer">
+            <div class="card-footer">
+                <h3>1</h3>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
             </div>
-        </section>
-        <!--Les plus populaires-->
-        <!--Activités à Marseille-->
-        <section class="section-parent-activités-à-Marseille">
-            <div class="parent-activités-Marseille">
-                <div class="titre-activités-à-Marseille">
-                    <h2>Activités à Marseille</h2>
-                </div>
-                <div class="enfant-activités-Marseille">
-                    <div class="card-activités">
-                        <a href="">
-                            <img src="">
-                            <h4></h4>
-                        </a>
-                    </div>   
-                    <div class="card-activités">
-                        <a href="">
-                            <img src="">
-                            <h4></h4>
-                        </a>
-                    </div>
-                    <div class="card-activités">
-                        <a href="">
-                            <img src="">
-                            <h4></h4>
-                        </a>
-                    </div>
-                    <div class="card-activités">
-                        <a href="">
-                            <img src="">
-                            <h4></h4>
-                        </a>
-                    </div>
-                    <div class="card-activités">
-                        <a href="">
-                            <img src="">
-                            <h4></h4>
-                        </a>
-                    </div>
-                    <div class="card-activités">
-                        <a href="">
-                            <img src="">
-                            <h4></h4>
-                        </a>
-                    </div>    
-                </div>
+            <div class="card-footer">
+                <h3>2</h3>
+                <a href=""></a>
+                <a href=""></a>
+            </div>
+            <div class="card-footer">
+                <h3>3</h3>
+                <a href=""></a>
+                <a href=""></a>
             </div>
         </div>
-            
-        </section>
-        <!--Activités à Marseille-->
+    </footer>
+    <!--Footer-->
+</body>
 
-        <!--Footer-->
-        <footer>
-            <div class="footer">
-                <div>
-                    <h3></h3>
-                    <a href=""></a>
-                    <a href=""></a>
-                    <a href=""></a>
-                </div>
-                <div>
-                    <h3></h3>
-                    <a href=""></a>
-                    <a href=""></a>
-                </div>
-                <div>
-                    <h3></h3>
-                    <a href=""></a>
-                    <a href=""></a>
-                </div>
-            </div>
-        </footer>
-        <!--Footer-->
-    </body>
 </html>
