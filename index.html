@@ -13,21 +13,21 @@
 
 </head>
 
-<body>
+<body> 
     <header>
-        <div class="topbar">
-            <div class="logo"><img src="images/logo/Reservia.svg" alt="logo Reservia" /></div>
-            <nav>
-                <ul class="container_menu">
-                    <div id="hébergements-ancre">
-                        <li class="menu-item"><a href="#hébergements-ancre">Hébergements</a></li>
-                    </div>
-                    <div id="activités-ancre">
-                        <li class="menu-item"><a href="#activités-ancre">Activités</a></li>
-                    </div>
-                    <li class="menu-item"><a href="#S'inscrire">S'inscrire</a></li>
-                </ul>
-            </nav>
+        <div class="container-header">
+            <div class="container-inner-content-header">
+                <div class="topbar">
+                    <div class="logo"><img src="images/logo/Reservia.svg" alt="logo Reservia" /></div>
+                    <nav>
+                        <ul class="container_menu">
+                                <li class="menu-item"><a href="#" class="a-href-hebergement">Hébergements</a></li>
+                                <li class="menu-item"><a href="#" class="a-href-activite">Activités</a></li>
+                                <li class="menu-item"><a href="#" class="a-href-signup">S'inscrire</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </div>
     </header>
 
@@ -40,26 +40,39 @@
             <section>
                 <!-- section search+filters-->
                 <div class="section-search">
-                    <i class="fa fa-map-marker"></i>
+                    <div class="map-marker">
+                        <i class="fa fa-map-marker" class="marker"></i>
+                    </div>
                     <input class="search" type="search" placeholder="Marseille,France">
                     <button type="submit" class="recherche" value="rechercher">Rechercher</button>
                 </div>
                 <div class="section-filters">
                     <h3 class="title-filters">Filtres</h3>
-                    <div>
-                        <i class="fas fa-money-bill-wave"></i>
+                    <div class="filter">
+                        
+                        <div class="icone-filter">
+                            <i class="fas fa-money-bill-wave "></i>
+                        </div>
                         Economique
+                        
                     </div>
-                    <div>
-                        <i class="fas fa-child"></i>
+                    <div class="filter">
+                        <div class="icone-filter">
+                            <i class="fas fa-child"></i>
+                        </div>
                         Familial
+                        
                     </div>
-                    <div>
-                        <i class="fas fa-heart"></i>
+                    <div class="filter">
+                        <div class="icone-filter">
+                            <i class="fas fa-heart"></i>
+                        </div>
                         Romantique
                     </div>
-                    <div>
+                    <div class="filter">
+                    <div class="icone-filter">
                         <i class="fas fa-dog"></i>
+                    </div>
                         Animaux autorisés
                     </div>
                 </div>
