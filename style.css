@@ -1,9 +1,8 @@
-
 body
 {
     margin: 0px;
     padding: 0px; 
-    font-family: 'Raleway', sans-serif; 
+    font-family: "Raleway", "Sans-serif"; 
 }
 /* HEADER */
 .container-header
@@ -83,7 +82,8 @@ body
     flex-flow: column wrap;
     padding: 10px;
     margin-left: 20px;
-    line-height: 0.8em;    
+    line-height: 0.8em;
+    font-size: 1.30em;    
 }
 h1
 {
@@ -94,6 +94,7 @@ p
 {
     font-size: small;
     margin-top: auto;
+    margin-left: 3px;
 }
 /* END HEADER */
 /*section-container*/
@@ -132,6 +133,7 @@ p
     border-left: none;
     border-top: #F2F2F2 1px solid;
     border-bottom: #F2F2F2 1px solid;
+    font-weight: bold;
 }
 .recherche
 {
@@ -148,6 +150,7 @@ p
 {
     display: flex;
     padding: 20px;
+    font-weight: bold;
 }
 .title-filters
 {
@@ -155,14 +158,15 @@ p
     align-items: center;
     justify-content: center;
     margin: 0;
+    margin-right: 10px;
     padding: 5px;
 }
 .filter
 {
-    border: 1px solid grey;
+    border: 1px solid #cacaca;
     border-radius: 50px;
     padding: 0;
-    padding-right: 10px;   
+    padding-right: 15px;   
     margin: 10px; 
 }
 .filter:hover
@@ -174,10 +178,15 @@ p
 .icone-filter
 {
     background-color:#DEEBFF;
+    color: blue;
     padding: 10px;
     display:inline-block;
     border-radius: 50%;
     
+}
+.icone-filter .fa-child
+{
+    padding: 2px 4px;
 }
 
 /*end section search+filters*/
@@ -187,11 +196,28 @@ p
     display: flex;
     padding: 20px; 
 }
-.fa-info-circle
+.info i
+{
+   border: 1px solid #cacaca;
+   padding: 7px;
+   width: 12px;
+   margin-right: 15px;
+   margin-bottom: 5px;
+   font-size: 11px;
+   border-radius: 50%;
+   text-align: center;
+   color: #0065fc;
+}
+.info-text
+{
+    font-size: 13px;
+    margin-top: 5px;
+}
+/*.fa-info-circle
 {
     background-color: white;
     margin: 10px;   
-}
+}*/
 /*end info 500 logements*/
 /*section Hébergements à Marseille_Les plus populaires*/
 /* Hébergements à Marseille*/
@@ -261,9 +287,15 @@ p
     margin: -6px;
     margin-left: 5px;
     font-size: 15px;
-    font-weight: bold;
+    
 }
-b, strong
+.h4-hebergement
+{
+    font-weight: bold;
+    font-size: small;
+    padding-left: 1%;
+}
+b
 {
     font-weight: bold;
 }
@@ -295,8 +327,8 @@ b, strong
 .parent-les-plus-populaires
 {
     background-color: #F2F2F2;
-    width: 40%;
-    margin: 20px;
+    width: 44%;
+    margin: 30px;
     margin-top: 0;
     margin-bottom: 0ex;
     border-radius: 15px;
@@ -311,6 +343,10 @@ b, strong
     justify-content: space-between;
     padding: 20px;
     margin-top: 10px;
+}
+.fa-chart-line
+{
+    margin-top: 26px;
 }
 .enfant-populaires
 {
@@ -328,11 +364,11 @@ b, strong
 {
     background-color: white;
     margin: 10px;
-    padding: 20px;
+    padding: 4px;
     padding-left: 24px;
     padding-top: 5px;
     padding-bottom: 5px;
-    width: 80%;
+    width: 87%;
     border-radius: 10px;
 }
 .card_populaires:hover
@@ -350,17 +386,22 @@ b, strong
 .img_populaires
 {
     max-width: 100%;
-    width: 120px;
-    height: 155px;
+    width: 129px;
+    height: 138px;
     object-fit: cover;
     border-radius: 10px 0px 0px 10px;
 }
 .text_card_populaires
 {
     padding: 0px;
-    margin: 10px;
+    margin: 3px;
     margin-left: 20px;
+    margin-top: -15px;
     
+}
+.h4-populaire
+{
+    font-weight: bold;
 }
 .star-populaires
 {
@@ -409,11 +450,11 @@ b, strong
     
 }
 /*start css card activité 1 et 3*/
-.card-activité-1-3
+.card-activité-1-4
 {
-    
     /*background-color: rgb(28, 129, 133);*/
     margin: 10px;
+    margin-top: 30px;
     margin-bottom: 110px;
     width: 20%;
     box-shadow: 0 0 20px #0000002e;
@@ -425,63 +466,84 @@ b, strong
 {
     text-decoration: none;
 }
-.img-activité-1-3
+.img-activité-1-4
 {
     max-width: 100%;
-    width: 420px;
-    height: 355px;
+    width: 100%;
+    height: 323px;
     object-fit: cover;
 }
-.text-card-activité-1-3
+.text-card-activité-1-4
 {
     color: black;
+    font-size: smaller;
+    font-weight: bold;
     margin: 0px;
-    padding: 0px;
-    margin-left: 7px;
+    padding: 12px;
+    margin-left: 0px;
+    margin-bottom: 5px;
+    white-space: nowrap;
 }
 /*end css card activité 1 et 3*/
 /*start css card activité 2 et 4*/
 .card-activité-2-4
 {
-    background-color: rgb(28, 129, 133);
+    /*background-color: rgb(28, 129, 133);*/
     margin: 10px;
     padding: 20px;
-    width: 20%;    
+    width: 20%;  
+      
 }
-.img-activité-2-4
+.img-activité-2-5
 {
-    width: 220px;
+    width: 100%;
     height: 155px;
+    margin: 0px;
     object-fit: cover;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px
 }
-.img-activité-3
+.img-activité-3-6
 {
-    width: 220px;
+    width: 500%;
     height: 95px;
     object-fit: cover;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     margin-left: -30px;
 }
-.img-activité-5
-{
-    width: 220px;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-.img-activité-6
-{
-    width: 220px;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-left: -30px;
-}
-.text-card-activité-2-4
+.text-card-activité-2-5
 {
     color: black;
     margin-left: 5px;
+    margin: -3px -1px 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 11px;
+    font-size: smaller;
+    width: 96%;
+    box-shadow: 0 0 20px #0000002e;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+    transition-duration: 0.1s;
+}
+.text-card-activité-3-6
+{
+    display: inline-flex;
+    color: black;
+    margin-left: 5px;
+    margin: -31px;
+    padding-top: 40px;
+    padding-bottom: 16px;
+    padding-left: 11px;
+    font-size: smaller;
+    width: 479%;
+    box-shadow: 0 0 20px #0000002e;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+    transition-duration: 0.1s;
 }
 /*end css card activité 2 et 4*/
 /* end  Activités à Marseille*/
@@ -490,11 +552,11 @@ b, strong
 {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(53, 151, 190);    
+    background-color: #F2F2F2;    
 }
 .container-footer
 {
-    background-color: chartreuse;
+    /*background-color: chartreuse;*/
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
@@ -503,7 +565,7 @@ b, strong
 
 .card-footer
 {
-    background-color: rgb(167, 83, 74);
+    /*background-color: rgb(167, 83, 74);*/
     margin: 10px;
     padding: 10px;
     width: 30%;
@@ -516,4 +578,13 @@ b, strong
 .lien_footer
 {
     display: block;
+    list-style-type: none;
+}
+.href-footer
+{
+    text-decoration: none;
+    color: black;
+    margin-left: -15%;
+    line-height: 2;
+    font-size: medium;
 }

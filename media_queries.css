@@ -1,0 +1,56 @@
+
+/* start Media queries */
+@media screen and (max-width:1000px)
+
+{
+    .container-header
+    {
+        display: none;
+    }
+    .recherche
+    {
+        background-color:red;
+    }
+    .section-filters
+    {
+        flex-direction: column;
+    }
+    .Parent-Hébergement-Marseille
+    {
+        width: 100%;
+        border-radius: revert;
+        background-color: white;
+    }
+    .card
+    {
+        width: 100%;
+    }
+    .section-parent-hebergement_les-plus-populaires
+    {
+        flex-direction: column-reverse;
+    }
+    .parent-les-plus-populaires
+    {
+        width: 100%;
+        margin-left: 0;
+        border-radius: revert;
+
+    }
+    .titre-Hébergement
+    {
+        font-size: 1em;
+    }
+    .img-hebergements
+    {
+        width: 310px;
+    }
+    .section-parent-activités-à-Marseille
+    {
+        display: none;
+    }
+    #footer
+    {
+        display: none;
+    }
+       
+}
