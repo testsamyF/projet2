@@ -9,7 +9,10 @@
 }
 @media screen  and  (max-width: 1100px)
 {
-    flex-direction: column-reverse;
+    .parent-section-most-popular-accommodation
+    {
+        flex-direction: column-reverse;
+    }
 }
 @media screen and (max-width: 650px)
 
@@ -45,7 +48,7 @@
         font-size: large;
     }
     /* end section search+filters*/
-    /* start section parent-hebergement_les-plus-populaires */
+    /*start section parent-hebergement_the-most-popular*/
     .parent-section-most-popular-accommodation
     {
         flex-direction: column-reverse;
@@ -100,8 +103,8 @@
     {
         font-size: x-large;
     }
-    /* end section parent-hebergement_les-plus-populaires */
-    /* start section activités-à-Marseille */
+    /*end section parent-hebergement_the-most-popular*/
+    /*start section activities-in-Marseille*/
     .parent-activities-section-in-Marseille
     {
         width: 100%;
@@ -129,8 +132,8 @@
         width: 100%;
         margin-left: -1%;
     }
-    /* end section activités-à-Marseille */
-    /* start section footer */
+    /*end section activities-in-Marseille*/
+    /*start section footer*/
     #footer
     {
        flex-direction: column;
@@ -148,6 +151,6 @@
     {
         
     }
-    /*end section footer */
+    /*end section footer*/
        
 }
