@@ -37,7 +37,7 @@ body
     padding-left: 10px;
     margin-left: 20px;   
 }
-.a-href-accommodation
+.a-href-menu
 {
     text-decoration: none;
     color: #0065FC;
@@ -49,30 +49,24 @@ body
 .a-href-activities
 {
     text-decoration: none;
-    color: black;
-    
+    animation-duration: 0.3s;
+    color: black; 
+    border-top: none;
 }
 .a-href-activities:hover
 {
-    color: #0065FC;
     border-top: 3px solid #0065FC;
-    animation-name: navhover;
-    animation-duration: 0.3s;
-    padding-top: 15px; 
 }
 .a-href-signup
 {
+    border-top: none;
     text-decoration: none;
     color: #0065FC;
     font-weight: bold;
 }
 .a-href-signup:hover
 {
-    color: #0065FC;
     border-top: 3px solid #0065FC;
-    animation-name: navhover;
-    animation-duration: 0.3s;
-    padding-top: 15px; 
 }
 .title_description
 {
