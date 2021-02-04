@@ -1,0 +1,253 @@
+
+/* start Media queries */
+@media screen  and  (max-width: 1200px)
+{
+   
+}
+@media screen  and  (max-width: 1200px)
+{
+    .parent-section-most-popular-accommodation
+    {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .child-accommodation
+    {
+        justify-content: center;
+        margin: 0 15px 20px 15px;
+    }
+    .card
+    {
+        width: 40%;
+    }
+    .show-more
+    {
+        padding-left: 23px;
+    }
+    .img-accommodation
+    {
+        width: 100%;
+    }
+    .parent-most-popular
+    {
+        margin-bottom: 30px;
+        width: 80%;
+    }
+    .card-popular
+    {
+        width: 90%;
+    }
+    .popular_img
+    {
+        width: 220px;
+    }
+}
+/* start Media queries mobile*/
+@media screen and (max-width: 650px)
+
+{
+    /*start HEADER*/
+    .container-header
+    {
+       margin-top: 5%;
+    }
+    .title_description
+    {
+        line-height: 1.5em;
+    }
+    p 
+    {
+        margin-top:-10px;
+    }
+    .container_menu
+    {
+        margin-top: 18%;
+        margin-left: -49%;
+    }
+    .menu-item-signup
+    {
+        margin-top: -10%;
+        margin-left:1%;
+    }
+    .a-href-menu
+    {
+        border-bottom: 3px solid lightgrey;
+        border-top: transparent;
+        margin-left: 33%;
+        padding-left: 10%;
+    }
+    .a-href-menu:hover
+    {
+        border-bottom: 3px solid #0065FC;
+    }
+    .a-href-activities
+    {
+        margin-left: 110%;
+    }
+    .a-href-activities:hover
+    { 
+        border-bottom: 3px solid #0065FC;
+        border-top: transparent; 
+    }
+    .a-href-signup
+    {
+        border-top: none;
+        border-bottom: none;
+    }
+    /*end HEADER*/
+    /* start section search+filters*/
+    .section-search
+    { 
+        margin: -19px 13px -17px;
+    }
+    .research
+    {
+        
+    }
+    .section-filters
+    {
+        flex-wrap: wrap;
+        margin-left: 97px;
+    }
+    .title-filters
+    {
+        margin-left: -73%;
+        font-size: large;
+        display: inline-block;
+    }
+    .filter-3-4
+    {
+        margin: 0 20% 4% -38%;
+    }
+    .info
+    {
+        padding: 30px;
+    }
+    .info i 
+    {
+        padding: 5%;
+        width: 4%;
+    }
+    /* end section search+filters*/
+    /*start section parent-hebergement_the-most-popular*/
+    .parent-section-most-popular-accommodation
+    {
+        flex-direction: column-reverse;
+    }
+    .parent-Accommodation-Marseille
+    {
+        width: 100%;
+        border-radius: revert;
+        background-color: white;
+    }
+    .title-Accommodation
+    {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+    .child-accommodation
+    {
+        margin-top: -32px;
+    }
+    .card
+    {
+        width: 94%;
+    }
+    .img-accommodation
+    {
+        width: 313px;
+    }
+    .text_card_accommodation
+    {
+        line-height: 11px;
+    }
+    .show-more
+    {
+        font-size: large;
+    }
+    .parent-most-popular
+    {
+        width: 100%;
+        margin-left: 30px;
+        border-radius: revert;
+    }
+    .most-popular-title
+    {
+        margin-left: 0px;
+        font-size: medium;
+    }
+    .child-popular
+    {
+        margin-top: -19px;
+    }
+    .card-popular
+    {
+        width: 93%;
+    }
+    .popular_img
+    {
+        width: 40%;
+    }
+    .fa-chart-line
+    {
+        font-size: x-large;
+    }
+    /*end section parent-hebergement_the-most-popular*/
+    /*start section activities-in-Marseille*/
+    .parent-activities-section-in-Marseille
+    {
+        width: 100%;
+    }
+    .title-activities-in-Marseille
+    {
+        margin: 10px 18px;
+    }
+    .child-activities-Marseille
+    {
+        flex-direction: column;
+        align-items: center;
+        margin: 2%;
+        margin-top: -10%;
+    }
+    .card-activity-1-4
+    {
+       margin: 0;
+    }
+    .img-activities
+    {
+        height: 120px;
+
+    }
+    .img-activities-1-4
+    {
+       
+    }
+    .card-activity-2-4 
+    {
+        
+    }
+    .text-card-activities
+    {
+        width: 97%;
+    }
+    /*end section activities-in-Marseille*/
+    /*start section footer*/
+    #footer
+    {
+       flex-direction: column;
+    }
+    .container-footer
+    {
+        flex-direction: column;
+    }
+    .card-footer
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+    .link_footer
+    {
+        margin: 2%;
+    }
+    /*end section footer*/     
+}

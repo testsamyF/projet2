@@ -1,0 +1,524 @@
+body
+{
+    margin: 0px;
+    padding: 0px; 
+    font-family: "Raleway", "Sans-serif"; 
+}
+/* HEADER */
+.container-header
+{
+    display: flex;
+    justify-content: space-around;
+}
+.container-inner-content-header
+{
+    max-width: 1200px;
+    width: 100%;
+}
+.topbar
+{ 
+    display: flex;
+    justify-content: space-between; 
+    padding: 1px 30px 5px 30px;  
+}
+.logo 
+{
+    margin: 0;
+    padding: 0;
+}
+.container_menu
+{
+   display: flex;
+   list-style-type: none;
+    
+}
+.menu-item
+{
+    padding-left: 10px;
+    margin-left: 20px;   
+}
+.a-href-menu
+{
+    text-decoration: none;
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+    animation-name: navhover;
+    animation-duration: 0.3s;
+    padding: 15px;  
+}
+.a-href-activities
+{
+    text-decoration: none;
+    animation-duration: 0.3s;
+    color: black; 
+    border-top: none;
+}
+.a-href-activities:hover
+{
+    border-top: 3px solid #0065FC;
+}
+.a-href-signup
+{
+    border-top: none;
+    text-decoration: none;
+    color: #0065FC;
+    font-weight: bold;
+}
+.a-href-signup:hover
+{
+    border-top: 3px solid #0065FC;
+}
+.title_description
+{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 10px;
+    margin-left: 20px;
+    line-height: 0.8em;
+    font-size: 1.30em;    
+}
+h1
+{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+p
+{
+    font-size: small;
+    margin-top: auto;
+    margin-left: 3px;
+}
+/* END HEADER */
+/*section-container*/
+.container-content
+{
+    display: flex;
+    justify-content: space-around;
+}
+.container-inner-content
+{
+    max-width: 1200px;
+    width: 100%;
+}
+/*section search+filters*/
+.section-search
+{
+    display: flex;
+    padding: 20px;
+}
+.map-marker
+{
+    background-color: #F2F2F2;
+    padding: 12px;
+    border:10px;
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 11px;
+}
+.search
+{
+    border: none;
+    padding-left: 5px;
+    border-right: none;
+    border-left: none;
+    border-top: #F2F2F2 1px solid;
+    border-bottom: #F2F2F2 1px solid;
+    font-weight: bold;
+}
+.research
+{
+    padding: 10px;
+    border: 8px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #0065FC;
+
+}
+.section-filters
+{
+    display: flex;
+    padding: 20px;
+    font-weight: bold;
+}
+.title-filters
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-right: 10px;
+    padding: 5px;
+}
+.filter
+{
+    border: 1px solid #cacaca;
+    border-radius: 50px;
+    padding: 0;
+    padding-right: 15px;   
+    margin: 10px; 
+}
+.filter:hover
+{
+    background-color: #b6d1fa;
+    animation-name: filterhover;
+    animation-duration: 0.1s;  
+}
+.icon-filter
+{
+    background-color:#DEEBFF;
+    color: blue;
+    padding: 10px;
+    display:inline-block;
+    border-radius: 50%;
+    
+}
+.icon-filter .fa-child
+{
+    padding: 2px 4px;
+}
+
+/*end section search+filters*/
+/*info 500 homes*/
+.info
+{
+    display: flex;
+    padding: 20px; 
+}
+.info i
+{
+   border: 1px solid #cacaca;
+   padding: 7px;
+   width: 12px;
+   margin: 0 15px 5px 0;
+   font-size: 11px;
+   border-radius: 50%;
+   text-align: center;
+   color: #0065fc;
+}
+.info-text
+{
+    font-size: 13px;
+    margin-top: 5px;
+}
+/*end info 500 homes*/
+/*Accommodation section in Marseille_Most popular*/
+/*Accommodations in Marseille*/
+.parent-section-most-popular-accommodation
+{
+    display: flex; 
+}
+.parent-Accommodation-Marseille
+{
+    background-color :#F2F2F2;
+    border-radius: 15px;
+    width: 80%;    
+}
+.title-Accommodation
+{
+    margin: 10px;
+    padding: 20px;
+    font-weight: bold;
+}
+.child-accommodation
+{
+   display: flex;
+   flex-wrap: wrap;
+   margin: 0 15px 0 15px;
+}
+.card
+{
+    background-color: #ffffff;
+    margin: 12px 10px 12px 12px;
+    padding: 5px;
+    width: 30%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);  
+}
+.card:hover
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.card a
+{
+    text-decoration: none;
+    color: black;
+}
+.img-accommodation
+{
+    max-width: 100%;
+    width: 250px;
+    height: 120px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.text_card_accommodation
+{
+    line-height: 0px;
+    padding: 0px;
+    margin: -6px;
+    margin-left: 5px;
+    font-size: 15px;
+    
+}
+.h4-accommodation
+{
+    font-weight: bold;
+    font-size: small;
+    padding-left: 1%;
+}
+b
+{
+    font-weight: bold;
+}
+.star
+{
+    display: inline-flex;
+    color: blue;
+    padding: 2px;
+    margin: 5px 2px 2px 2px;
+    font-size: small;
+}
+.star-grey
+{
+    display: inline-flex;
+    color: #d9d9d9;
+    font-size: small;
+}
+.show-more
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-top: 25px;
+    padding-left: 20px;
+}
+/*end Accommodations in Marseille*/
+/*The most popular*/
+.parent-most-popular
+{
+    background-color: #F2F2F2;
+    width: 44%;
+    margin: 0 30px 0 30px;
+    border-radius: 15px;   
+}
+.most-popular-title
+{  
+    display: flex;
+    margin: 10px 20px 0 30px;
+    justify-content: space-between;
+    padding: 20px;
+}
+.fa-chart-line
+{
+    margin-top: 26px;
+}
+.child-popular
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 30px 10px 20px;
+    
+}
+.card_popular
+{
+    background-color: white;
+    margin: 10px;
+    padding: 5px 4px 5px 24px;
+    width: 87%;
+    border-radius: 10px;
+}
+.card_popular:hover
+{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.card_popular a
+{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    margin-left: -20px;
+}
+.popular_img
+{
+    max-width: 100%;
+    width: 129px;
+    height: 138px;
+    object-fit: cover;
+    border-radius: 10px 0px 0px 10px;
+}
+.text_card_popular
+{
+    padding: 0px;
+    margin: -15px 3px 3px 20px; 
+}
+.h4-popular
+{
+    font-weight: bold;
+}
+.star-popular
+{
+    display: inline-flex;
+    color: blue;
+    padding: 2px;
+    margin: 25px 2px 2px 20px;
+    font-size: small;
+}
+.star-grey-popular
+{
+    display: inline-flex;
+    color: #d9d9d9;
+    margin-left: -8px;
+    font-size: small;
+}
+/*end The most popular*/
+/*Activities in Marseille*/
+.parent-activities-section-in-Marseille
+{
+    display: flex;
+}
+.parent-activities-Marseille
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0px;
+}
+.title-activities-in-Marseille
+{
+    margin: 10px;
+    padding: 20px;
+    font-weight: bold;
+}
+.child-activities-Marseille
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+/*start card-activities*/
+.card-activities
+{
+    margin: 10px;
+    width: 100%;
+}
+.card-activity-1-4
+{
+    margin: 30px 10px 135px 10px;
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition-duration: 0.1s;   
+}
+.card-activity-2-4 
+{
+    padding: 20px; 
+}
+/*end card-activities*/
+.href-activities
+{
+    text-decoration: none;
+}
+/*start img-activities*/
+.img-activities
+{
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.img-activity-1-4
+{
+    height: 323px; 
+}
+.img-activity-2-5
+{
+    height: 155px;
+    margin: 0px;
+}
+.img-activity-3-6
+{
+    height: 95px;
+    margin-left: -30px;
+}
+/* end img-activities*/
+/* start text-activities*/
+.text-card-activities
+{
+    color: black;
+    font-size: smaller;
+    width: 96%;
+    overflow: hidden;
+    white-space: nowrap;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.text-card-activity-1-4
+{
+    font-weight: bold;
+    margin: 0 0 5px 0;
+    padding: 12px;
+}
+.text-card-activity-2-5
+{
+    margin: -3px -1px 0 -1px;
+    padding: 15px 0 15px 11px;
+}
+.text-card-activity-3-6
+{
+    margin: -31px;
+    padding: 40px 0 16px 11px;
+}
+.text-card-activities-2-6
+{
+    padding-left: 11px;
+    box-shadow: 0 0 20px #0000002e;
+    transition-duration: 0.1s;
+}
+/*end text-card-activities*/
+/* end Activities in Marseille*/
+/*footer*/
+#footer
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F2F2F2;    
+}
+.container-footer
+{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+}
+.card-footer
+{
+    width: 30%;
+    margin: 10px;
+    padding: 30px;
+}
+.title-footer
+{
+    font-weight: bold;
+}
+.link_footer
+{
+    display: block;
+    list-style-type: none;
+}
+.href-footer
+{
+    text-decoration: none;
+    color: black;
+    margin-left: -15%;
+    line-height: 2;
+    font-size: medium;
+}
