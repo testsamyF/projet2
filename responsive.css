@@ -141,7 +141,7 @@
     }
     .menu-item-signup
     {
-        margin: -40px 0 0 -70px;
+        margin: -40px 0 0 -45px;
     }
     .a-href-menu
     {
@@ -150,7 +150,7 @@
     }
     .a-href-menu:hover
     {
-        border-bottom: 3px solid #0065FC;
+       border-top: none;
     }
     .a-href-activities
     {
@@ -189,6 +189,7 @@
     {
         flex-wrap: wrap;
         margin-top: 30px;
+        margin-left: 10px;
     }
     .title-filters
     {
