@@ -169,6 +169,7 @@ p
     padding: 0;
     padding-right: 15px;   
     margin: 10px; 
+    cursor: pointer;
 }
 .filter:hover
 {
