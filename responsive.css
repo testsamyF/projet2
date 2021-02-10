@@ -1,4 +1,3 @@
-
 /* start Media queries */
 @media screen  and  (max-width: 1200px)
 {
@@ -207,8 +206,8 @@
     }
     .info i 
     {
-        padding: 5%;
-        width: 4%;
+        width: 15px;
+        padding: 15px;
     }
     /* end section search+filters*/
     /*start section parent-hebergement_the-most-popular*/
