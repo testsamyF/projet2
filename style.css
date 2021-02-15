@@ -23,14 +23,13 @@ body
 }
 .logo 
 {
-    margin: 0;
+    margin: 0px;
     padding: 0;
 }
 .container_menu
 {
    display: flex;
    list-style-type: none;
-    
 }
 .menu-item
 {
@@ -417,22 +416,19 @@ b
     padding: 20px;
 }
 /*start card-activities*/
-.card-activities
+.column-activity
 {
-    margin: 10px;
-    width: 100%;
+    padding: 0 10px;
+    width: 50%;
 }
-.card-activity-1-4
+.card-activity
 {
-    margin: 30px 10px 135px 10px;
+    width: 100%;
     box-shadow: 0 0 20px #0000002e;
     border-radius: 1rem;
     overflow: hidden;
-    transition-duration: 0.1s;   
-}
-.card-activity-2-4 
-{
-    padding: 20px; 
+    transition-duration: 0.1s;
+    margin-bottom: 30px;
 }
 /*end card-activities*/
 .href-activities
@@ -445,8 +441,6 @@ b
     max-width: 100%;
     width: 100%;
     object-fit: cover;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 .img-activity-1-4
 {
@@ -455,46 +449,18 @@ b
 .img-activity-2-5
 {
     height: 155px;
-    margin: 0px;
 }
 .img-activity-3-6
 {
     height: 95px;
-    margin-left: -30px;
 }
 /* end img-activities*/
 /* start text-activities*/
-.text-card-activities
-{
-    color: black;
-    font-size: smaller;
-    width: 96%;
-    overflow: hidden;
-    white-space: nowrap;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-.text-card-activity-1-4
+.text-card-activity
 {
     font-weight: bold;
-    margin: 0 0 5px 0;
-    padding: 12px;
-}
-.text-card-activity-2-5
-{
-    margin: -3px -1px 0 -1px;
-    padding: 15px 0 15px 11px;
-}
-.text-card-activity-3-6
-{
-    margin: -31px;
-    padding: 40px 0 16px 11px;
-}
-.text-card-activities-2-6
-{
-    padding-left: 11px;
-    box-shadow: 0 0 20px #0000002e;
-    transition-duration: 0.1s;
+    padding: 10px;
+    color: black;
 }
 /*end text-card-activities*/
 /* end Activities in Marseille*/
@@ -534,4 +500,9 @@ b
     margin-left: -15%;
     line-height: 2;
     font-size: medium;
+}
+.href-footer:hover
+{
+    color: blue;
+    cursor: pointer;
 }
