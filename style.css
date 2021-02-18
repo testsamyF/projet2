@@ -409,7 +409,7 @@ b
     padding: 20px;
     font-weight: bold;
 }
-.child-activities-Marseille
+#child-activities-Marseille
 {
     display: flex;
     justify-content: space-between;
@@ -442,15 +442,15 @@ b
     width: 100%;
     object-fit: cover;
 }
-.img-activity-1-4
+.img-card-big
 {
     height: 323px; 
 }
-.img-activity-2-5
+.img-card-medium
 {
     height: 155px;
 }
-.img-activity-3-6
+.img-card-small
 {
     height: 95px;
 }
